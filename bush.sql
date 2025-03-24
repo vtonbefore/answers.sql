@@ -7,7 +7,7 @@ WHERE status = 'In Process'
 ORDER BY orderDate DESC;
 
 SELECT firstName, lastName, email 
-FROM employees 
+FROM employees
 WHERE jobTitle = 'Sales Rep' 
 ORDER BY employeeNumber DESC;
 
